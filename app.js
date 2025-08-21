@@ -33,7 +33,7 @@ function verificarChute(){
   let chute = document.querySelector('input').value;
 
   if( chute ==numeroSecreto){
-    exibirTexto('h1', 'Parabéns!');
+    exibirTexto('h1', 'Show! Parabéns!');
     // Alterar de singular para plural de acordo com o número de tentativas  
     let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
     let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
